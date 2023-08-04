@@ -1,0 +1,47 @@
+/* Styles for the banner container */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 20px;
+    color: #333;
+  }
+
+  .right{
+    display: flex;
+    margin-right: 20px;
+    color: #a11717;
+  }
+
+  /* Styles for the banner title */
+  .banner h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Styles for the banner description */
+  .banner p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  /* Styles for the link button */
+  .banner a {
+    text-decoration: none;
+    padding: 10px 20px;
+    /* background-color: #0d233b; */
+    color: #a11717;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .banner a:hover {
+    background-color: #0056b3;
+  }
+  
+  .banner img {
+    border-radius: 60%;
+    width: 5%;
+    height: 10%;
+  }
